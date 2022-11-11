@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css" />
+      <script type="text/javascript" src="respondd.js" defer></script>
+   </head>
+   <body>
+      <!-- beginning of code-->
+      <section aria-label="newest images">
+         <div class="carousel" data-carousel>
+            <!--previous button-->
+            <button class="carousel__button carousel__button--left" data-carousel-button="prev">
+               <img src="images/arrow_left.svg" alt="preview-arrow" />
+            </button>
+            <!--container for slide-->
+            <div class="carousel__slide-container">
+               <ul class="carousel__slide current--slide" data-slides>
+                  <li class="carousel--image" data-active>
+                     <img
+                        src="images/pexels-jaime-reimer-2662116.jpg"
+                        alt="first-image-on-the-slide" />
+                  </li>
+
+                  <li class="carousel--image">
+                     <img
+                        src="images/pexels-eberhard-grossgasteiger-1366919.jpg"
+                        alt="second-image-on-the-slide" />
+                  </li>
+
+                  <li class="carousel--image">
+                     <img
+                        src="images/pexels-joran-quinten-3775331 (1).jpg"
+                        alt="third-image-on-the-slide" />
+                  </li>
+
+                  <li class="carousel--image">
+                     <img src="images/pexels-pixabay-221433.jpg" alt="fourth-image-on-the-slide" />
+                  </li>
+
+                  <li class="carousel--image">
+                     <img
+                        src="images/pexels-roberto-nickson-2559941.jpg"
+                        alt="fifth-image-on-the-slide" />
+                  </li>
+
+                  <li class="carousel--image">
+                     <img
+                        src="images/pexels-tatiana-syrikova-3934023.jpg"
+                        alt="sixth-image-on-the-slide" />
+                  </li>
+               </ul>
+            </div>
+            <!--next button-->
+            <button class="carousel__button carousel__button--right" data-carousel-button="next">
+               <img src="images/arrow_right.svg" alt="next-arrow" />
+            </button>
+         </div>
+      </section>
+   </body>
+</html>
